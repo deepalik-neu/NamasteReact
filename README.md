@@ -42,3 +42,31 @@ every dependency has its own package.json.
 # BowswerList
 - Compatible with older version of browsers
 - npm package
+
+# Scripts
+- to add scripts add a section in package.json
+- give title to the script
+
+# JSX
+- JS engine doesnt understand JSX. how it is understood then? Parcel is doing this
+- using transpiled JSX before JS engine process it
+- Parcel is like a manager
+- Babel does the transplilation JSX to(convert) JS understable by its engine
+- what is transpiling
+- Babel is a JS compiler
+- JSX -> Babel -> React.createElement -> React JS ->Js Object ->HTML element
+- React is readable coz of JSX
+
+# Episode 02
+
+# React Components
+- Class based
+- Functional
+
+# Functional Component
+- A JS function that returns a JSX code is Functional component
+
+# Cross site scripting
+- through api if there is any malacious data then JSX will escape it. 
+- JSX sanitizes the data. and does not run anything blindly.
+
